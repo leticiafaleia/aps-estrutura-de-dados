@@ -1,3 +1,12 @@
+/*
+* Faça um programa em C que crie uma árvore binária
+* e implemente uma função que retorne a quantidade de folhas de uma árvore binária. 
+*
+* int folhas (Arv *);
+*
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
