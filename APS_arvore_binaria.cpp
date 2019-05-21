@@ -32,7 +32,7 @@ int numFolhas(Arvore *raiz){
   if(raiz == NULL)
     return 0;
   else
-    if(raiz->sae == raiz->sad)
+    if(raiz->sae==NULL&&raiz->sad==NULL)
       return 1;
    else
       return numFolhas(raiz->sae) + numFolhas(raiz->sad);
